@@ -19,14 +19,16 @@ if (isset($_SESSION['redirect'])) {
 ?>
 <!DOCTYPE html>
 <html>
-<head>
-    <title>App</title>
-</head>
-<body>
-    <div class="container">
-        <div class="embed-responsive embed-responsive-16by9">
-        <iframe width="100%" height="100%" class="embed-responsive-item" src="https://app1-csn.apps.oc.4ks.online" allowfullscreen></iframe>
-        </div>
-    </div>
-</body>
+   <head>
+      <script>
+         window.onload = function() {
+            var iframe = document.getElementById("myiframe");
+            iframe.width = iframe.contentWindow.document.body.scrollWidth;
+            iframe.height = iframe.contentWindow.document.body.scrollHeight;
+         }
+      </script>
+   </head>
+   <body>
+      <iframe width="100%" height="100%" id="myiframe" src="https://4ks.mx"></iframe>
+   </body>
 </html>
