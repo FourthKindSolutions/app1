@@ -7,7 +7,7 @@ session_set_cookie_params(0, '/', '.4ks.online');
 if (!isset($_SESSION['username'])) {
     // Store the current page in a session variable
     $_SESSION['redirect'] = $_SERVER['REQUEST_URI'];
-    header('Location: login.php');
+    header('Location: https://dashboard-csn.apps.oc.4ks.online/login.php');
     exit;
 }
 
