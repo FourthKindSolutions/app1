@@ -1,15 +1,4 @@
-<?php
-session_start();
 
-// Check if the user is logged in
-if (¡isset($_SESSION['username'])) {
-    header('Location: https://dashboard-csn.apps.oc.4ks.online/login.php');
-    exit;
-}
-
-// User is logged in, display the app content here
-$username = $_SESSION['username'];
-?>
 
 <!DOCTYPE html>
 <html>
