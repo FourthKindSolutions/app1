@@ -23,6 +23,6 @@
 </head>
 <body>
 	<h1>No es necesario incrustar el código php_sesion</h1>
-	<p>Puede solucionarse con oauth-proxy de OpenShift "tarde pero seguro".</p>
+	<p>hola fer este es un ejemplo de un ambiente devops.</p>
 </body>
 </html>
