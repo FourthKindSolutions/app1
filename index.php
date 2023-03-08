@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <script>
-         window.onload = function() {
-            var iframe = document.getElementById("myiframee");
-            iframe.width = iframe.contentWindow.document.body.scrollWidth;
-            iframe.height = iframe.contentWindow.document.body.scrollHeight;
-         }
-      </script>
-   </head>
-   <body>
-      <iframe width="100%" height="100%" id="myiframee" src="https://4ks.mx"></iframe>
-   </body>
+<head>
+	<title>APLICACION DEMO PHP </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body {
+			background-color: black;
+			color: white;
+			font-family: Arial, Helvetica, sans-serif;
+			text-align: center;
+			padding-top: 50px;
+		}
+		h1 {
+			font-size: 50px;
+			margin-bottom: 0;
+		}
+		p {
+			font-size: 20px;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>No es necesario incrustar el código php_sesion</h1>
+	<p>Puede solucionarse con oauth-proxy de OpenShift "tarde pero seguro".</p>
+</body>
 </html>
