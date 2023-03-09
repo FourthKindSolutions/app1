@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>APLICACION DEMO PHP </title>
+	<title>APLICACION DEMO PHP openshift </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
 		body {
@@ -22,7 +22,10 @@
 	</style>
 </head>
 <body>
-	<h1>No es necesario incrustar el código php_sesion</h1>
-	<p>hola fer este es un ejemplo de un ambiente devops.</p>
+	<h1>ARCHIVO INDEX.PHP REUTILIZABLE</h1>
+	<p>EL METODO DE AUTENTICACION QUE SE ESTARA UTILIZANDO ES EL SIGUIENTE OAUT-PROXY DE OPENSHIFT</p>
+<?php
+echo gethostname();
+?>	
 </body>
 </html>
